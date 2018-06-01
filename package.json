@@ -1,0 +1,23 @@
+{
+  "name": "personal-web-space",
+  "version": "0.1.0",
+  "description": "My very own site on the internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NRec22/personal-web-space.git"
+  },
+  "author": "Neven Recchia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NRec22/personal-web-space/issues"
+  },
+  "homepage": "https://github.com/NRec22/personal-web-space#readme",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
