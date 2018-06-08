@@ -2,7 +2,12 @@
 
 # dependencies
 node_modules/
+
+# build folder
 dist/
+
+# tools
+.vscode/
 
 # misc
 .DS_Store
