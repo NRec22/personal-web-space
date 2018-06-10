@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "test": "jest",
+    "test": "jest --watch",
+    "test:nowatch": "jest",
     "build": "webpack --mode development"
   },
   "repository": {
@@ -30,11 +31,14 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.9.1",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^23.1.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.10.2",
@@ -42,14 +46,24 @@
     "webpack-dev-server": "^3.1.4"
   },
   "jest": {
-    "moduleFileExtensions": ["js", "jsx"],
-    "moduleDirectories": ["node_modules", "src"],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/test/__mocks__/fileMock.js",
       "\\.(css|less)$": "identity-obj-proxy"
     },
+    "setupTestFrameworkScriptFile": "<rootDir>/test/test-setup.js",
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!(react)/)"
+    ],
     "transform": {
-      "^.+\\.js$": "babel-jest"
+      "^.+\\.(jsx|js)$": "babel-jest"
     }
   }
 }
