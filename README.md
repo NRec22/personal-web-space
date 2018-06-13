@@ -12,6 +12,7 @@ My very own site on the Internet.
 * [ESLint](https://eslint.org) - linter for js and jsx
 * [Jest](https://facebook.github.io/jest/en/) - js testing framework
 * [Enzyme](http://airbnb.io/enzyme/) - reactjs testing utility
+* [Bulma](https://bulma.io/) - css framework
 
 ## Getting Started
 #### Requirements
@@ -40,7 +41,7 @@ New, current, and closed issues are located [here](https://github.com/NRec22/per
 * ~~Add ESLint~~
 * ~~Add testing framework~~
 * ~~Create staging or develop branch~~
-* Consume Bootstrap
+* ~~Consume Bootstrap or other CSS framework~~
 * Deploy to a server
 * Introduce CI/CD
 * "Draw the rest of the f**king owl"

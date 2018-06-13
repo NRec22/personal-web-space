@@ -16,11 +16,19 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
-        exclude: /node_modules/,
+      },
+      {
+        test: /\.(sass|scss)$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       }
     ]
   },
-  resolve: { extensions: ['*', '.js', '.jsx'] },
+  resolve: {
+    extensions: ['*', '.js', '.jsx'],
+    alias: {
+      '_variables.sass': path.resolve(__dirname, 'src/_variables.sass'),
+    },
+  },
   output: {
     publicPath: bundlePath,
     filename: 'bundle.js'
