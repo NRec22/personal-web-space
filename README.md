@@ -39,7 +39,7 @@ New, current, and closed issues are located [here](https://github.com/NRec22/per
 * ~~Add Webpack~~
 * ~~Add ESLint~~
 * ~~Add testing framework~~
-* Create staging or develop branch
+* ~~Create staging or develop branch~~
 * Consume Bootstrap
 * Deploy to a server
 * Introduce CI/CD
