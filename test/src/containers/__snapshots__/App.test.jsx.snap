@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App: should render as expected 1`] = `
+<React.Fragment>
+  <h1>
+    Neven Recchia
+  </h1>
+  <h2>
+    Home
+  </h2>
+  <h2>
+    About Me
+  </h2>
+  <h2>
+    Contact
+  </h2>
+  <h2>
+    LinkedIn
+  </h2>
+  <h2>
+    Github
+  </h2>
+  <Columns
+    breakpoint={null}
+    centered={false}
+    className=""
+    gapless={false}
+    multiline={true}
+    style={Object {}}
+  >
+    <Columns.Column
+      className=""
+      desktop={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      desktopOffset={null}
+      desktopSize={null}
+      fullhd={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      fullhdOffset={null}
+      fullhdSize={null}
+      mobile={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      mobileOffset={null}
+      mobileSize={null}
+      narrow={false}
+      offset={null}
+      size={null}
+      style={Object {}}
+      tablet={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      tabletOffset={null}
+      tabletSize={null}
+      widescreen={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      widescreenOffset={null}
+      widescreenSize={null}
+    >
+      Hello
+    </Columns.Column>
+    <Columns.Column
+      className=""
+      desktop={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      desktopOffset={null}
+      desktopSize={null}
+      fullhd={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      fullhdOffset={null}
+      fullhdSize={null}
+      mobile={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      mobileOffset={null}
+      mobileSize={null}
+      narrow={false}
+      offset={null}
+      size={null}
+      style={Object {}}
+      tablet={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      tabletOffset={null}
+      tabletSize={null}
+      widescreen={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      widescreenOffset={null}
+      widescreenSize={null}
+    >
+      Testing
+    </Columns.Column>
+    <Columns.Column
+      className=""
+      desktop={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      desktopOffset={null}
+      desktopSize={null}
+      fullhd={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      fullhdOffset={null}
+      fullhdSize={null}
+      mobile={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      mobileOffset={null}
+      mobileSize={null}
+      narrow={false}
+      offset={null}
+      size={null}
+      style={Object {}}
+      tablet={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      tabletOffset={null}
+      tabletSize={null}
+      widescreen={
+        Object {
+          "narrow": false,
+          "offset": null,
+          "size": null,
+        }
+      }
+      widescreenOffset={null}
+      widescreenSize={null}
+    >
+      Columns
+    </Columns.Column>
+  </Columns>
+</React.Fragment>
+`;

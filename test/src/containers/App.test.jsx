@@ -1,5 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
+import toJson from 'enzyme-to-json';
 import App from '../../../src/containers/App';
 
 describe('App:', () => {
@@ -18,4 +19,10 @@ describe('App:', () => {
             expect(wrapper.text()).toContain(text);
         })
     });
+
+    it('should render as expected', () => {
+        const wrapper = shallow(<App />);
+        const tree = toJson(wrapper);
+        expect(tree).toMatchSnapshot();
+    })
 });
