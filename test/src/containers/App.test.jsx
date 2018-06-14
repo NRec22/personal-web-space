@@ -1,6 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
-import App from '../../../src/components/App';
+import App from '../../../src/containers/App';
 
 describe('App:', () => {
     it('should contain my name', () => {
