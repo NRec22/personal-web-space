@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header:  should render as expected 1`] = `
+<Navbar
+  className=""
+  color="light"
+  fixed={null}
+  renderAs="nav"
+  style={Object {}}
+  transparent={false}
+>
+  <Navbar.Menu
+    active={false}
+    className=""
+    style={Object {}}
+  >
+    <Navbar.Container
+      className=""
+      position="start"
+      renderAs="div"
+      style={Object {}}
+    >
+      <Navbar.Item
+        active={false}
+        className=""
+        dropdown={false}
+        dropdownUp={false}
+        hoverable={false}
+        renderAs="a"
+        style={Object {}}
+      >
+        Home
+      </Navbar.Item>
+      <Navbar.Item
+        active={false}
+        className=""
+        dropdown={false}
+        dropdownUp={false}
+        hoverable={false}
+        renderAs="a"
+        style={Object {}}
+      >
+        About Me
+      </Navbar.Item>
+      <Navbar.Item
+        active={false}
+        className=""
+        dropdown={false}
+        dropdownUp={false}
+        hoverable={false}
+        renderAs="a"
+        style={Object {}}
+      >
+        Contact
+      </Navbar.Item>
+      <Navbar.Item
+        active={false}
+        className=""
+        dropdown={false}
+        dropdownUp={false}
+        hoverable={false}
+        renderAs="a"
+        style={Object {}}
+      >
+        LinkedIn
+      </Navbar.Item>
+      <Navbar.Item
+        active={false}
+        className=""
+        dropdown={false}
+        dropdownUp={false}
+        hoverable={false}
+        renderAs="a"
+        style={Object {}}
+      >
+        Github
+      </Navbar.Item>
+    </Navbar.Container>
+  </Navbar.Menu>
+</Navbar>
+`;
