@@ -3,6 +3,9 @@ import Navbar from 'react-bulma-components/lib/components/navbar';
 
 const Header = () => (
   <Navbar color="light">
+    <Navbar.Brand>
+      <Navbar.Burger />
+    </Navbar.Brand>
     <Navbar.Menu>
       <Navbar.Container>
         <Navbar.Item>Home</Navbar.Item>

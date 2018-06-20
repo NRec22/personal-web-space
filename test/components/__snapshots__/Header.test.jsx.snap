@@ -9,6 +9,20 @@ exports[`Header:  should render as expected 1`] = `
   style={Object {}}
   transparent={false}
 >
+  <Navbar.Brand
+    active={false}
+    className=""
+    style={Object {}}
+    toggleMenu={[Function]}
+  >
+    <Navbar.Burger
+      active={false}
+      className=""
+      onClick={[Function]}
+      style={Object {}}
+      toggleMenu={[Function]}
+    />
+  </Navbar.Brand>
   <Navbar.Menu
     active={false}
     className=""
