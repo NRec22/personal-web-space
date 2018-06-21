@@ -3,5 +3,6 @@
 exports[`App: should render as expected 1`] = `
 <React.Fragment>
   <Header />
+  <Banner />
 </React.Fragment>
 `;

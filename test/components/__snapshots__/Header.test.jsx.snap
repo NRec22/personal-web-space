@@ -15,6 +15,17 @@ exports[`Header:  should render as expected 1`] = `
     style={Object {}}
     toggleMenu={[Function]}
   >
+    <Navbar.Item
+      active={false}
+      className=""
+      dropdown={false}
+      dropdownUp={false}
+      hoverable={false}
+      renderAs="a"
+      style={Object {}}
+    >
+      ...
+    </Navbar.Item>
     <Navbar.Burger
       active={false}
       className=""
@@ -65,17 +76,6 @@ exports[`Header:  should render as expected 1`] = `
         renderAs="a"
         style={Object {}}
       >
-        Contact
-      </Navbar.Item>
-      <Navbar.Item
-        active={false}
-        className=""
-        dropdown={false}
-        dropdownUp={false}
-        hoverable={false}
-        renderAs="a"
-        style={Object {}}
-      >
         LinkedIn
       </Navbar.Item>
       <Navbar.Item
@@ -88,6 +88,17 @@ exports[`Header:  should render as expected 1`] = `
         style={Object {}}
       >
         Github
+      </Navbar.Item>
+      <Navbar.Item
+        active={false}
+        className=""
+        dropdown={false}
+        dropdownUp={false}
+        hoverable={false}
+        renderAs="a"
+        style={Object {}}
+      >
+        Contact Me
       </Navbar.Item>
     </Navbar.Container>
   </Navbar.Menu>

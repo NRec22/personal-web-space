@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner:  should render as expected 1`] = `
+<Hero
+  className=""
+  color="dark"
+  gradient={true}
+  renderAs="section"
+  size="medium"
+  style={Object {}}
+>
+  <Hero.Body
+    className=""
+    renderAs="div"
+    style={Object {}}
+  >
+    <Container
+      breakpoint={null}
+      className=""
+      fluid={false}
+      renderAs="div"
+      style={Object {}}
+    >
+      <Heading
+        className=""
+        heading={false}
+        renderAs="h1"
+        size={3}
+        spaced={false}
+        style={Object {}}
+        subtitle={false}
+      >
+        Neven Recchia
+      </Heading>
+      <Heading
+        className=""
+        heading={false}
+        renderAs="h1"
+        size={5}
+        spaced={false}
+        style={Object {}}
+        subtitle={true}
+      >
+        ...
+      </Heading>
+    </Container>
+  </Hero.Body>
+</Hero>
+`;
