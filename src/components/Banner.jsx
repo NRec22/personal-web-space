@@ -7,8 +7,8 @@ const Banner = () => (
   <Hero color="dark" size="medium" gradient>
     <Hero.Body>
       <Container>
-        <Heading size={3}>Neven Recchia</Heading>
-        <Heading subtitle size={5}>...</Heading>
+        <Heading spaced size={1}>Neven Recchia</Heading>
+        <Heading subtitle size={5}>Developer at day. Thrillseeker at night.</Heading>
       </Container>
     </Hero.Body>
   </Hero>

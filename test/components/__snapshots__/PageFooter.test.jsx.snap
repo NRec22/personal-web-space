@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer:  should render as expected 1`] = `
+<Footer
+  className=""
+  renderAs="div"
+  style={Object {}}
+>
+  <Container
+    breakpoint={null}
+    className=""
+    fluid={false}
+    renderAs="div"
+    style={Object {}}
+  >
+    <Content
+      className=""
+      renderAs="div"
+      size={null}
+      style={Object {}}
+    >
+      <p>
+        Powered by React and Bulma.
+      </p>
+    </Content>
+  </Container>
+</Footer>
+`;

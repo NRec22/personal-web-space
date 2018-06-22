@@ -25,8 +25,8 @@ exports[`Banner:  should render as expected 1`] = `
         className=""
         heading={false}
         renderAs="h1"
-        size={3}
-        spaced={false}
+        size={1}
+        spaced={true}
         style={Object {}}
         subtitle={false}
       >
@@ -41,7 +41,7 @@ exports[`Banner:  should render as expected 1`] = `
         style={Object {}}
         subtitle={true}
       >
-        ...
+        Developer at day. Thrillseeker at night.
       </Heading>
     </Container>
   </Hero.Body>
