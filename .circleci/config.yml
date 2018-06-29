@@ -3,6 +3,22 @@ jobs:
   build:
     docker:
       - image: circleci/node:10-browsers
+    branches:
+      ignore:
+        - /feature\/.*/
     steps:
       - checkout
-      - run: echo "hello world!"
+      - restore_cache:
+        key:
+          - v1-nrweb-{{ checksum "package.json" }}
+          - v1-nrweb-
+        run:
+          name: Dependency Setup
+          command: yarn install
+      - save_cache:
+          paths:
+            - ./node_modules
+          keys: v1-nrweb-{{ checksum "package.json" }}
+      - run:
+          name: Test Runner
+          command: yarn test:nowatch --runInBand

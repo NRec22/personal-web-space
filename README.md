@@ -6,13 +6,14 @@ My very own site on the Internet.
 
 ## Built With
 * [Yarn](https://yarnpkg.com/en/) - package manager
-* [React](https://reactjs.org) - ui js library
-* [Babel](https://babeljs.io) - js compiler
-* [Webpack](https://webpack.js.org) - bundler for js applications
-* [ESLint](https://eslint.org) - linter for js and jsx
+* [React](https://reactjs.org/) - ui js library
+* [Babel](https://babeljs.io/) - js compiler
+* [Webpack](https://webpack.js.org/) - bundler for js applications
+* [ESLint](https://eslint.org/) - linter for js and jsx
 * [Jest](https://facebook.github.io/jest/en/) - js testing framework
 * [Enzyme](http://airbnb.io/enzyme/) - reactjs testing utility
 * [Bulma](https://bulma.io/) - css framework
+* [CircleCI](http://circleci.com/) - continuous integration and delivery service
 
 ## Getting Started
 #### Requirements
@@ -23,10 +24,11 @@ My very own site on the Internet.
 #### Installation
 1. Clone this repository.
 2. Enter `yarn install` in project directory.
-3. To run the application locally, enter `yarn start`.
+3. To run the application locally, enter `yarn dev`.
 
 #### Testing
-* `yarn test` - runs jest in watch mode, add `:nowatch` to run normally
+* `yarn test` - runs jest in watch mode
+* `yarn test:nowatch` - runs jest without watch mode
 
 #### Deployment
 ...
@@ -43,7 +45,9 @@ New, current, and closed issues are located [here](https://github.com/NRec22/per
 * ~~Create staging or develop branch~~
 * ~~Consume Bootstrap or other CSS framework~~
 * Deploy to a server
-* Introduce CI/CD
+* Introduce ~~CI~~/CD
+* Add Express and routing
+* Add Cucumber
 * "Draw the rest of the f**king owl"
 
 ## Authors
