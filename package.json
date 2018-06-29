@@ -1,6 +1,6 @@
 {
   "name": "personal-web-space",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "description": "My very own site on the internet.",
   "main": "index.js",
   "scripts": {
@@ -70,6 +70,6 @@
     "transform": {
       "^.+\\.(jsx|js)$": "babel-jest"
     },
-    "reporters": [ "default", "jest-junit" ]
+    "reporters": [ "default", [ "jest-junit", { "output": "./test_results/jest/junit.xml" } ] ]
   }
 }

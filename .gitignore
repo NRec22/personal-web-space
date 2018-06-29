@@ -16,4 +16,4 @@ dist/
 *.log
 
 # testing results
-junit.xml
+test_results/

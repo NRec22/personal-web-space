@@ -23,4 +23,4 @@ jobs:
           name: Test Runner
           command: yarn test:nowatch --runInBand --ci
       - store_test_results:
-        path: /
+        path: ./test_results
