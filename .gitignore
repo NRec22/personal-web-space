@@ -14,3 +14,6 @@ dist/
 
 # logs
 *.log
+
+# testing results
+junit.xml

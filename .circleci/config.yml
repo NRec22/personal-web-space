@@ -21,4 +21,6 @@ jobs:
           key: v1-nrweb-{{ checksum "package.json" }}
       - run:
           name: Test Runner
-          command: yarn test:nowatch --runInBand
+          command: yarn test:nowatch --runInBand --ci
+      - store_test_results:
+        path: /

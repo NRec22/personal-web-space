@@ -1,6 +1,6 @@
 {
   "name": "personal-web-space",
-  "version": "0.11.2",
+  "version": "0.12.0",
   "description": "My very own site on the internet.",
   "main": "index.js",
   "scripts": {
@@ -42,6 +42,7 @@
     "eslint-plugin-react": "^7.9.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.1.0",
+    "jest-junit": "^5.1.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
@@ -68,6 +69,7 @@
     ],
     "transform": {
       "^.+\\.(jsx|js)$": "babel-jest"
-    }
+    },
+    "reporters": [ "default", "jest-junit" ]
   }
 }
