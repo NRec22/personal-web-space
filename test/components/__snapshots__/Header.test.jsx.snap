@@ -3,47 +3,24 @@
 exports[`Header:  should render as expected 1`] = `
 <Navbar
   className=""
-  color="light"
+  color={null}
   fixed={null}
   renderAs="nav"
   style={Object {}}
   transparent={false}
 >
-  <Navbar.Brand
-    active={false}
+  <Container
+    breakpoint={null}
     className=""
+    fluid={false}
+    renderAs="div"
     style={Object {}}
-    toggleMenu={[Function]}
   >
-    <Navbar.Item
+    <Navbar.Brand
       active={false}
       className=""
-      dropdown={false}
-      dropdownUp={false}
-      hoverable={false}
-      renderAs="a"
-      style={Object {}}
-    >
-      ...
-    </Navbar.Item>
-    <Navbar.Burger
-      active={false}
-      className=""
-      onClick={[Function]}
       style={Object {}}
       toggleMenu={[Function]}
-    />
-  </Navbar.Brand>
-  <Navbar.Menu
-    active={false}
-    className=""
-    style={Object {}}
-  >
-    <Navbar.Container
-      className=""
-      position="start"
-      renderAs="div"
-      style={Object {}}
     >
       <Navbar.Item
         active={false}
@@ -54,53 +31,84 @@ exports[`Header:  should render as expected 1`] = `
         renderAs="a"
         style={Object {}}
       >
-        Home
+        ...
       </Navbar.Item>
-      <Navbar.Item
+      <Navbar.Burger
         active={false}
         className=""
-        dropdown={false}
-        dropdownUp={false}
-        hoverable={false}
-        renderAs="a"
+        onClick={[Function]}
         style={Object {}}
-      >
-        About Me
-      </Navbar.Item>
-      <Navbar.Item
-        active={false}
+        toggleMenu={[Function]}
+      />
+    </Navbar.Brand>
+    <Navbar.Menu
+      active={false}
+      className=""
+      style={Object {}}
+    >
+      <Navbar.Container
         className=""
-        dropdown={false}
-        dropdownUp={false}
-        hoverable={false}
-        renderAs="a"
+        position="start"
+        renderAs="div"
         style={Object {}}
       >
-        LinkedIn
-      </Navbar.Item>
-      <Navbar.Item
-        active={false}
-        className=""
-        dropdown={false}
-        dropdownUp={false}
-        hoverable={false}
-        renderAs="a"
-        style={Object {}}
-      >
-        Github
-      </Navbar.Item>
-      <Navbar.Item
-        active={false}
-        className=""
-        dropdown={false}
-        dropdownUp={false}
-        hoverable={false}
-        renderAs="a"
-        style={Object {}}
-      >
-        Contact Me
-      </Navbar.Item>
-    </Navbar.Container>
-  </Navbar.Menu>
+        <Navbar.Item
+          active={false}
+          className=""
+          dropdown={false}
+          dropdownUp={false}
+          hoverable={false}
+          renderAs="a"
+          style={Object {}}
+        >
+          Home
+        </Navbar.Item>
+        <Navbar.Item
+          active={false}
+          className=""
+          dropdown={false}
+          dropdownUp={false}
+          hoverable={false}
+          renderAs="a"
+          style={Object {}}
+        >
+          About Me
+        </Navbar.Item>
+        <Navbar.Item
+          active={false}
+          className=""
+          dropdown={false}
+          dropdownUp={false}
+          hoverable={false}
+          renderAs="a"
+          style={Object {}}
+        >
+          LinkedIn
+        </Navbar.Item>
+        <Navbar.Item
+          active={false}
+          className=""
+          dropdown={false}
+          dropdownUp={false}
+          hoverable={false}
+          renderAs="a"
+          style={Object {}}
+        >
+          Github
+        </Navbar.Item>
+        <Navbar.Item
+          active={false}
+          className=""
+          dropdown={false}
+          dropdownUp={false}
+          hoverable={false}
+          renderAs="a"
+          style={Object {}}
+        >
+          Contact Me
+        </Navbar.Item>
+      </Navbar.Container>
+    </Navbar.Menu>
+  </Container>
 </Navbar>
 `;

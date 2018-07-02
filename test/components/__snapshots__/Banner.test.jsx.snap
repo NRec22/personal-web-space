@@ -9,6 +9,7 @@ exports[`Banner:  should render as expected 1`] = `
   size="medium"
   style={Object {}}
 >
+  <Header />
   <Hero.Body
     className=""
     renderAs="div"

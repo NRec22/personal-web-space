@@ -2,7 +2,6 @@ import { shallow } from 'enzyme';
 import React from 'react';
 import toJson from 'enzyme-to-json';
 import App from '../../src/containers/App';
-import Header from '../../src/components/Header';
 import Banner from '../../src/components/Banner';
 import PageFooter from '../../src/components/PageFooter';
 
@@ -11,10 +10,6 @@ describe('App:', () => {
 
   beforeEach(() => {
     wrapper = shallow(<App />);
-  })
-  it('should contain a header', () => {
-    // const wrapper = shallow(<App />);
-    expect(wrapper.find(Header)).toHaveLength(1);
   })
 
   it('should contain a banner', () => {
