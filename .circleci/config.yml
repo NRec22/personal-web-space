@@ -7,7 +7,7 @@ jobs:
       only:
         - master
         - develop
-        - feature/deployment
+        - /feature\/deployment/
     steps:
       - checkout
       - restore_cache:
@@ -51,4 +51,4 @@ workflows:
             branches:
               only:
                 - master
-                - feature/deployment
+                - /feature\/deployment/
