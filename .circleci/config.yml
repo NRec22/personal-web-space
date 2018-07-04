@@ -3,11 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/node:10-browsers
-    branches:
-      only:
-        - master
-        - develop
-        - /feature\/deployment/
     steps:
       - checkout
       - restore_cache:
@@ -43,7 +38,13 @@ workflows:
   version: 2
   build-deploy:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                - master
+                - develop
+                - /feature\/deployment/
       - deploy:
           requires:
             - build
