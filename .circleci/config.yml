@@ -25,6 +25,10 @@ jobs:
     docker:
       - image: circleci/node:10-browsers
     steps:
+      - checkout
+      - run:
+          name: Dependency Setup
+          command: yarn install
       - run:
           name: Install Firebase CLI
           command: yarn add --dev firebase-tools
