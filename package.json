@@ -1,6 +1,6 @@
 {
   "name": "personal-web-space",
-  "version": "0.14.5",
+  "version": "0.14.6",
   "description": "My very own site on the internet.",
   "main": "index.js",
   "scripts": {

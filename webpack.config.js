@@ -28,14 +28,15 @@ module.exports = {
     },
   },
   output: {
-    path: path.resolve(__dirname, './public/'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: '/dist/'
   },
   devtool: 'hidden-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     port: 3000,
-    publicPath: 'http://localhost:3000/public',
+    publicPath: '/dist/',
     hot: true
   },
   plugins: [new webpack.HotModuleReplacementPlugin()]
