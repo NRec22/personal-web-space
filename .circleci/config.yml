@@ -45,10 +45,10 @@ workflows:
     jobs:
       - build
       - deploy:
-        requires:
-          - build
-        filters:
-          branches:
-            only:
-              - master
-              - feature/deployment
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+                - feature/deployment
