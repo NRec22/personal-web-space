@@ -6,7 +6,7 @@ const Header = () => (
   <Navbar>
     <Container>
       <Navbar.Brand>
-        <Navbar.Item>...</Navbar.Item>
+        <Navbar.Item>....</Navbar.Item>
         <Navbar.Burger />
       </Navbar.Brand>
       <Navbar.Menu>

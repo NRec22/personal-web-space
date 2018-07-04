@@ -31,7 +31,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
-  devtool: 'cheap-source-map',
+  devtool: 'hidden-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     port: 3000,

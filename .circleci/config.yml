@@ -4,8 +4,10 @@ jobs:
     docker:
       - image: circleci/node:10-browsers
     branches:
-      ignore:
-        - /feature\/.*/
+      only:
+        - master
+        - develop
+        - feature/deployment
     steps:
       - checkout
       - restore_cache:
@@ -24,3 +26,18 @@ jobs:
           command: yarn test:nowatch --runInBand --ci
       - store_test_results:
           path: ./test_results
+  deploy:
+    docker:
+      - image: circleci/node:10-browsers
+    branches:
+      only:
+        - master
+        - develop
+        - feature/deployment
+    steps:
+      - run:
+          name: Install Firebase CLI
+          command: yarn add --dev firebase-tools
+      - run:
+          name: Deploy to Firebase
+          command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
