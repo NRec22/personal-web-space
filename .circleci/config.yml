@@ -29,15 +29,26 @@ jobs:
   deploy:
     docker:
       - image: circleci/node:10-browsers
-    branches:
-      only:
-        - master
-        - develop
-        - feature/deployment
     steps:
       - run:
           name: Install Firebase CLI
           command: yarn add --dev firebase-tools
       - run:
+          name: Yarn Build
+          command: yarn build
+      - run:
           name: Deploy to Firebase
           command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN
+  workflows:
+    version: 2
+    build-deploy:
+      jobs:
+        - build
+        - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
+                - feature/deployment
