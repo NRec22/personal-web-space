@@ -34,16 +34,16 @@ module.exports = {
   },
   devtool: 'hidden-source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'public'),
     port: 3000,
     publicPath: '/',
     hot: true
   },
   plugins: [new HtmlWebpackPlugin(
     {
-      template: './dist/index.html',
+      template: 'public/index.html',
       title: 'Neven Recchia',
-      favicon: './dist/favicon.ico',
+      favicon: 'public/favicon.ico',
       meta: {
         viewport: 'width=device-width, initial-scale=1',
       },

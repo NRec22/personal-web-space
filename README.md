@@ -31,7 +31,7 @@ My very own site on the Internet.
 * `yarn test:nowatch` - runs jest without watch mode
 
 #### Deployment
-...
+* `yarn build` - creates js bundle and throws assets into /dist
 
 #### Bugs
 New, current, and closed issues are located [here](https://github.com/NRec22/personal-web-space/issues).
@@ -44,10 +44,10 @@ New, current, and closed issues are located [here](https://github.com/NRec22/per
 * ~~Add testing framework~~
 * ~~Create staging or develop branch~~
 * ~~Consume Bootstrap or other CSS framework~~
-* Deploy to a server
-* Introduce ~~CI~~/CD
+* ~~Deploy to a server~~
+* ~~Introduce CI/CD~~
 * Add Express and routing
-* Add Cucumber
+* Add BDD
 * "Draw the rest of the f**king owl"
 
 ## Authors

@@ -1,13 +1,14 @@
 {
   "name": "personal-web-space",
-  "version": "0.14.7",
+  "version": "0.14.8",
   "description": "My very own site on the internet.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development",
     "test": "jest --watch",
     "test:nowatch": "jest",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "clean": "rm -rf dist/*"
   },
   "repository": {
     "type": "git",
