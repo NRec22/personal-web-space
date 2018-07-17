@@ -30,6 +30,7 @@ exports[`Banner:  should render as expected 1`] = `
         spaced={true}
         style={Object {}}
         subtitle={false}
+        weight={null}
       >
         Neven Recchia
       </Heading>
@@ -41,8 +42,9 @@ exports[`Banner:  should render as expected 1`] = `
         spaced={false}
         style={Object {}}
         subtitle={true}
+        weight={null}
       >
-        Developer at day. Thrillseeker at night.
+        Aspiring developer.
       </Heading>
     </Container>
   </Hero.Body>

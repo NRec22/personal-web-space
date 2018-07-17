@@ -19,10 +19,19 @@ describe('Header: ', () => {
   it('contains navigation titles', () => {
     const wrapper = render(<Header />);
     const navText = ['Home', 'About Me', 'Contact Me', 'LinkedIn', 'Github'];
-
     navText.forEach((text) => {
       expect(wrapper.text()).toContain(text);
     });
+  })
+
+  describe('Navbar Items: ', () => {
+    it('has the proper links attached', () => {
+      const wrapper = render(<Header />);
+      const navbar = [{'#home-button': '/'}, {'#about-button': '/about'}];
+      navbar.forEach((item) => {
+        expect(wrapper.find(item.key).attr('href')).toEqual(item.value);
+      })
+    })
   })
 
   it('should render as expected', () => {

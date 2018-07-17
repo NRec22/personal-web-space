@@ -3,6 +3,23 @@
 exports[`App: should render as expected 1`] = `
 <React.Fragment>
   <Banner />
+  <Switch>
+    <Route
+      exact={true}
+      path="/"
+      render={[Function]}
+    />
+    <Route
+      exact={true}
+      path="/about"
+      render={[Function]}
+    />
+    <Route
+      exact={true}
+      path="*"
+      render={[Function]}
+    />
+  </Switch>
   <PageFooter />
 </React.Fragment>
 `;

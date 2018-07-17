@@ -10,7 +10,7 @@ const Banner = () => (
     <Hero.Body>
       <Container>
         <Heading spaced size={1}>Neven Recchia</Heading>
-        <Heading subtitle size={5}>Developer at day. Thrillseeker at night.</Heading>
+        <Heading subtitle size={5}>Aspiring developer.</Heading>
       </Container>
     </Hero.Body>
   </Hero>

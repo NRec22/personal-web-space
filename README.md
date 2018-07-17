@@ -46,7 +46,7 @@ New, current, and closed issues are located [here](https://github.com/NRec22/per
 * ~~Consume Bootstrap or other CSS framework~~
 * ~~Deploy to a server~~
 * ~~Introduce CI/CD~~
-* Add Express and routing
+* ~~Introduce routing~~
 * Add BDD
 * "Draw the rest of the f**king owl"
 

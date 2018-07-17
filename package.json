@@ -1,13 +1,12 @@
 {
   "name": "personal-web-space",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "description": "My very own site on the internet.",
   "main": "index.js",
   "scripts": {
-    "dev-client": "webpack-dev-server --mode development",
-    "dev-server": "yarn build && nodemon server/server.js",
-    "test": "jest --watch",
-    "test:nowatch": "jest",
+    "dev": "webpack-dev-server --mode development",
+    "test": "jest --watch --verbose",
+    "test:nowatch": "jest --verbose",
     "build": "yarn clean && webpack --mode development",
     "clean": "rm -rf dist/*"
   },
@@ -23,10 +22,10 @@
   "homepage": "https://github.com/NRec22/personal-web-space#readme",
   "dependencies": {
     "bulma": "^0.7.1",
-    "express": "^4.16.3",
     "react": "^16.4.0",
-    "react-bulma-components": "^1.4.5",
-    "react-dom": "^16.4.0"
+    "react-bulma-components": "^1.5.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -49,7 +48,6 @@
     "jest": "^23.1.0",
     "jest-junit": "^5.1.0",
     "node-sass": "^4.9.0",
-    "nodemon": "^1.18.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.10.2",

@@ -1,6 +1,7 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 import toJson from 'enzyme-to-json';
+import { Switch } from 'react-router-dom';
 import App from '../../src/containers/App';
 import Banner from '../../src/components/Banner';
 import PageFooter from '../../src/components/PageFooter';
@@ -18,6 +19,10 @@ describe('App:', () => {
 
   it('should contain a footer', () => {
     expect(wrapper.find(PageFooter)).toHaveLength(1);
+  })
+
+  it('should contain a switch', () => {
+    expect(wrapper.find(Switch)).toHaveLength(1);
   })
 
   it('should render as expected', () => {
