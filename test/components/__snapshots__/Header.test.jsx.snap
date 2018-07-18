@@ -21,10 +21,12 @@ exports[`Header:  should render as expected 1`] = `
       dropdown={false}
       dropdownUp={false}
       hoverable={false}
+      href="/"
+      id="home-button"
       renderAs="a"
       style={Object {}}
     >
-      ...
+      Home
     </Navbar.Item>
     <Navbar.Burger
       active={false}
@@ -51,19 +53,6 @@ exports[`Header:  should render as expected 1`] = `
         dropdown={false}
         dropdownUp={false}
         hoverable={false}
-        href="/"
-        id="home-button"
-        renderAs="a"
-        style={Object {}}
-      >
-        Home
-      </Navbar.Item>
-      <Navbar.Item
-        active={false}
-        className=""
-        dropdown={false}
-        dropdownUp={false}
-        hoverable={false}
         href="/about"
         id="about-button"
         renderAs="a"
@@ -77,6 +66,8 @@ exports[`Header:  should render as expected 1`] = `
         dropdown={false}
         dropdownUp={false}
         hoverable={false}
+        href="https://www.linkedin.com/in/nevenrecchia/"
+        id="linkedin-button"
         renderAs="a"
         style={Object {}}
       >
@@ -88,6 +79,8 @@ exports[`Header:  should render as expected 1`] = `
         dropdown={false}
         dropdownUp={false}
         hoverable={false}
+        href="https://github.com/NRec22"
+        id="github-button"
         renderAs="a"
         style={Object {}}
       >
@@ -99,6 +92,8 @@ exports[`Header:  should render as expected 1`] = `
         dropdown={false}
         dropdownUp={false}
         hoverable={false}
+        href="mailto:nevenrecchia@gmail.com"
+        id="contact-button"
         renderAs="a"
         style={Object {}}
       >

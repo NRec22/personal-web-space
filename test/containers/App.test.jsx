@@ -11,23 +11,23 @@ describe('App:', () => {
 
   beforeEach(() => {
     wrapper = shallow(<App />);
-  })
+  });
 
   it('should contain a banner', () => {
     expect(wrapper.find(Banner)).toHaveLength(1);
-  })
+  });
 
   it('should contain a footer', () => {
     expect(wrapper.find(PageFooter)).toHaveLength(1);
-  })
+  });
 
-  it('should contain a switch', () => {
+  it('should contain a switch for routes', () => {
     expect(wrapper.find(Switch)).toHaveLength(1);
-  })
+  });
 
   it('should render as expected', () => {
     // const wrapper = shallow(<App />);
     const tree = toJson(wrapper);
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});
