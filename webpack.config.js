@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.jsx',
@@ -19,6 +20,10 @@ module.exports = {
       {
         test: /\.(sass|scss)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: 'file-loader'
       }
     ]
   },
@@ -42,12 +47,14 @@ module.exports = {
   },
   plugins: [new HtmlWebpackPlugin(
     {
-      template: 'public/index.html',
       title: 'Neven Recchia',
+      template: 'public/index.html',
       favicon: 'public/favicon.ico',
       meta: {
         viewport: 'width=device-width, initial-scale=1',
       },
     }
-  ), new webpack.HotModuleReplacementPlugin()]
+  ), 
+  new CopyWebpackPlugin([{ from: 'public/*.pdf', flatten: true }]),
+  new webpack.HotModuleReplacementPlugin()]
 };

@@ -10,6 +10,7 @@ const Header = () => (
     <Navbar.Menu>
       <Navbar.Container>
         <Navbar.Item id="about-button" href="/about">About Me</Navbar.Item>
+        <Navbar.Item id="resume-button" href="/nevenrecchia-resume.pdf">Resume</Navbar.Item>
         <Navbar.Item id="linkedin-button" href="https://www.linkedin.com/in/nevenrecchia/">LinkedIn</Navbar.Item>
         <Navbar.Item id="github-button" href="https://github.com/NRec22">Github</Navbar.Item>
         <Navbar.Item id="contact-button" href="mailto:nevenrecchia@gmail.com">Contact Me</Navbar.Item>

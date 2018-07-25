@@ -33,6 +33,7 @@ describe('Header: ', () => {
       const navbar = {
         '#home-button': '/',
         '#about-button': '/about',
+        '#resume-button': '/nevenrecchia-resume.pdf',
         '#linkedin-button': 'https://www.linkedin.com/in/nevenrecchia/',
         '#github-button': 'https://github.com/NRec22',
         '#contact-button': 'mailto:nevenrecchia@gmail.com'

@@ -66,6 +66,19 @@ exports[`Header:  should render as expected 1`] = `
         dropdown={false}
         dropdownUp={false}
         hoverable={false}
+        href="/nevenrecchia-resume.pdf"
+        id="resume-button"
+        renderAs="a"
+        style={Object {}}
+      >
+        Resume
+      </Navbar.Item>
+      <Navbar.Item
+        active={false}
+        className=""
+        dropdown={false}
+        dropdownUp={false}
+        hoverable={false}
         href="https://www.linkedin.com/in/nevenrecchia/"
         id="linkedin-button"
         renderAs="a"
